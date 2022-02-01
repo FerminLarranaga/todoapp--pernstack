@@ -1,0 +1,32 @@
+.registerContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    width: max(20vw, 300px);
+}
+
+.registerForm > label{
+    margin-top: 30px;
+}
+
+.registerForm > button{
+    margin: 40px;
+}
+
+.signInBtn{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    margin: 10px;
+}
+
+.signInBtn:hover{
+    text-decoration: underline;
+}

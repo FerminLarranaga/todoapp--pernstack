@@ -1,0 +1,80 @@
+.Taskslist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 50px 80px 50px;
+}
+
+.task{
+    display: grid;
+    grid-template-columns: max-content auto max-content;
+    align-items: center;
+    border-radius: 10px;
+    background: rgb(78, 85, 117);
+    margin: 20px 0;
+    padding: 15px;
+    box-shadow: 0px 20px 20px -20px black;
+}
+
+.task > h3{
+    margin: 0 30px 0 10px;
+}
+
+.task_btns{
+    margin-left: 10px;
+}
+
+.task_btns > button{
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color .4s;
+    color: white;
+    box-shadow: 2px 2px black;
+}
+
+.task_btns > [name='editBtn']{
+    background-color: #28316c;
+}
+
+.task_btns > [name='deleteBtn']{
+    background-color: #6c2525;
+}
+
+.task_btns > [name='editBtn']:hover{
+    background-color: #000e66;
+}
+
+.task_btns > [name='deleteBtn']:hover{
+    background-color: #970000;
+}
+
+@media (min-width: 1400px) {
+    .Taskslist{
+        padding: 6vh 6vw 15vh 6vw;
+    }
+}
+
+@media (max-width: 950px) {
+    .Taskslist{
+        padding: 30px 30px 80px 30px;
+    }
+}
+
+@media (max-width: 750px) {
+    .Taskslist{
+        padding: 30px 15px 50px 15px;
+    }
+
+    .task{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .task > h3{
+        margin: 0;
+    }
+}

@@ -1,0 +1,59 @@
+[33mcommit 916da4c02bf052e5801c99b9cc03e7e02a7ffeb5[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mheroku/master[m[33m)[m
+Author: FerminLarranaga <fermin.larranaga05@gmail.com>
+Date:   Mon Jan 31 20:37:58 2022 -0300
+
+    trying to solve heroku error
+
+[33mcommit f37660aa353bbdd4c0f621dd8c461b0b7d8c6a79[m
+Author: FerminLarranaga <fermin.larranaga05@gmail.com>
+Date:   Mon Jan 31 20:34:37 2022 -0300
+
+    catchall method
+
+[33mcommit 1662dca07269215ecde0d627bbb6c6ad49fcde15[m
+Author: FerminLarranaga <fermin.larranaga05@gmail.com>
+Date:   Mon Jan 31 20:00:39 2022 -0300
+
+    moving server folder to root dir
+
+[33mcommit 204ecde0a92a464983a0d86d504784c5e316a8f6[m
+Author: FerminLarranaga <fermin.larranaga05@gmail.com>
+Date:   Mon Jan 31 17:14:19 2022 -0300
+
+    fixed security issue with jwtsecret
+
+[33mcommit 0f159528bf8e030fd3acab60fe0cc886cbffcf14[m
+Author: FerminLarranaga <fermin.larranaga05@gmail.com>
+Date:   Mon Jan 31 17:12:39 2022 -0300
+
+    testing JWTSECRET
+
+[33mcommit d15f101a6b46b6fcbb86436cdf9907cc6fc6f6c9[m
+Author: FerminLarranaga <fermin.larranaga05@gmail.com>
+Date:   Mon Jan 31 16:21:27 2022 -0300
+
+    testing /
+
+[33mcommit 05a4b45d257bd7a3727d00133b6f3d244652d653[m
+Author: FerminLarranaga <fermin.larranaga05@gmail.com>
+Date:   Mon Jan 31 16:16:32 2022 -0300
+
+    changed databse url env variable error
+
+[33mcommit 2e40425acbdac57d0291e662969f5a42801b3cb5[m
+Author: FerminLarranaga <fermin.larranaga05@gmail.com>
+Date:   Mon Jan 31 15:54:30 2022 -0300
+
+    added ssl unauthorized
+
+[33mcommit d3b302a998ac1721965613c0f5d4dab57462ca16[m
+Author: FerminLarranaga <fermin.larranaga05@gmail.com>
+Date:   Mon Jan 31 15:30:33 2022 -0300
+
+    fixed jwtsecret
+
+[33mcommit bf9dd15bfda7cb96fa3c6cd21875dba04415348c[m
+Author: FerminLarranaga <fermin.larranaga05@gmail.com>
+Date:   Mon Jan 31 15:22:53 2022 -0300
+
+    first deploy

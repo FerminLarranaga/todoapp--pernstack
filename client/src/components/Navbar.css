@@ -1,0 +1,92 @@
+.Navbar{
+    height: 60px;
+    width: 100%;
+    background: rgb(46, 51, 73);
+    box-shadow: 0px 4px 20px 5px rgb(0 0 0 / 40%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Navbar > a{
+    text-decoration: none;
+    border: none;
+    color: white;
+    font-weight: 600;
+    margin: 0 3vw;
+    transition: color 300ms;
+}
+
+.navbarBtnsContainer{
+    display: flex;
+    align-items: center;
+}
+
+.tasksBtn{
+    font-size: 22px;
+}
+
+.tasksBtn:hover{
+    color: rgb(219, 219, 219);
+}
+
+.tasksBtn::after{
+    content: "";
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: white;
+    transition: 300ms;
+}
+
+.tasksBtn:hover::after{
+    width: 100%;
+}
+
+.normalBtn{
+    opacity: .7;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: opacity .4s;
+    box-shadow: 3px 4px black;
+    text-decoration: none;
+    border: none;
+    color: white;
+    font-weight: 600;
+    margin-right: 1.5vw;
+    cursor: pointer;
+    height: fit-content;
+    width: fit-content;
+}
+
+.newTaskBtn{
+    background: green;
+}
+
+.signoutBtn{
+    background: red;
+}
+
+.logOutSvg{
+    fill: white;
+    width: 30px;
+    margin: 10px 25px 10px 20px;
+    cursor: pointer;
+    transition: opacity .3s;
+}
+
+.logOutSvg:hover{
+    opacity: .7;
+}
+
+.normalBtn:hover{
+    opacity: 1;
+}
+
+@media (max-width: 750px) {
+    .Navbar > a{
+        margin: 0 6vw;
+    }
+}
