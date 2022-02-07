@@ -1,6 +1,6 @@
 const express = require ("express");
 const morgan = require("morgan");
-const cors = require("cors");
+// const cors = require("cors");
 const path = require('path');
 
 const taskRoutes = require("./src/routes/tasks.routes.js");
@@ -12,7 +12,7 @@ const port = process.env.PORT || 4000;
 
 app.use(morgan("dev"));
 app.use(express.json());
-app.use(cors());
+// app.use(cors());
 
 if (process.env.NODE_ENV === 'production'){
     app.use(express.static(path.join(__dirname, 'client/build')));
